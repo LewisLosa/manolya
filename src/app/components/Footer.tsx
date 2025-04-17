@@ -17,16 +17,16 @@ const FooterComponent: React.FC = () => {
               göz at ve iletişime geç.
             </p>
             <div className="flex flex-col space-y-2 text-4xl w-fit ">
-              <Link href="#" className=" hover:underline underline-offset-4">
+              <Link href="mailto:lewislosa@gmail.com" className=" hover:underline underline-offset-4">
                 E-posta
               </Link>
-              <Link href="#" className="hover:underline underline-offset-4">
+              <Link target="https://github.com/lewislosa/" href="#" className="hover:underline underline-offset-4">
                 GitHub
               </Link>
-              <Link href="#" className="hover:underline underline-offset-4">
+              <Link target="_blank" href="https://www.linkedin.com/in/sengozeyup" className="hover:underline underline-offset-4">
                 LinkedIn
               </Link>
-              <Link href="#" className="hover:underline underline-offset-4">
+              <Link target="_blank" href="https://instagram.com/sengozeyup" className="hover:underline underline-offset-4">
                 Instagram
               </Link>
             </div>
@@ -46,7 +46,7 @@ const FooterComponent: React.FC = () => {
 
         <div className="mt-24 -mb-12 text-center text-sm text-gray-400">
           Bu site açık kaynaklıdır, kaynak kodu{" "}
-          <Link href="https://github.com" className="hover:underline">
+          <Link target="_blank" href="https://github.com/lewislosa/manolya" className="hover:underline">
             GitHub
           </Link>{" "}
           üzerinde yayınlanmaktadır.
