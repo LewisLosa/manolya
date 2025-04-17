@@ -36,12 +36,12 @@ const ProjectCard: React.FC<Project> = ({
   githubLink,
 }) => {
   return (
-    <div className="rounded-3xl overflow-hidden flex flex-col md:flex-row mb-8">
+    <div className="rounded-3xl  overflow-hidden flex flex-col md:flex-row mb-8">
       <div className="relative w-full md:w-1/2">
         <img
           src={imageUrl}
           alt={altText}
-          className="w-128 h-full object-cover rounded-3xl"
+          className="w-full max-w-128 h-full object-cover rounded-3xl"
         />
       </div>
       <div className="p-8 flex-1">
