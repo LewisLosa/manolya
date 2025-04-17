@@ -1,4 +1,9 @@
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheckCircle, faEye } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import ProjelerSection from "./components/ProjectCard";
+import FooterComponent from "./components/Footer";
 
 export default function Home() {
   return (
@@ -16,6 +21,8 @@ export default function Home() {
           </div>
         </div>
       </header>
+      <ProjelerSection />
+      <FooterComponent />
     </main>
   );
 }
