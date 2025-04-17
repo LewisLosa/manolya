@@ -4,9 +4,9 @@ import Link from "next/link";
 
 const FooterComponent: React.FC = () => {
   return (
-    <footer className="mt-60 bg-black rounded-tl-[64px] rounded-tr-[64px]       text-white p-6 w-full">
+    <footer className="mt-60 bg-black rounded-tl-[64px] rounded-tr-[64px] text-white p-6 w-full transform transition-all duration-700 ease-out hover:rounded-tl-[72px] hover:rounded-tr-[72px]">
       <div className="max-w-6xl mx-auto py-12">
-        <div className="flex flex-col md:flex-row justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center stagger-reveal">
           <div className="mb-8 md:mb-0">
             <h2 className="text-4xl font-bold">İstediğin gibi miyim?</h2>
             <p className="text-4xl mb-6">
@@ -16,7 +16,7 @@ const FooterComponent: React.FC = () => {
               </Link>{" "}
               göz at ve iletişime geç.
             </p>
-            <div className="flex flex-col space-y-2 text-4xl w-fit ">
+            <div className="flex flex-col space-y-2 text-4xl w-fit stagger-reveal">
               <Link href="mailto:lewislosa@gmail.com" className=" hover:underline underline-offset-4">
                 E-posta
               </Link>
@@ -32,9 +32,9 @@ const FooterComponent: React.FC = () => {
             </div>
           </div>
 
-          <div className="text-right text-4xl mt-auto">
+          <div className="text-right text-4xl mt-auto transform transition-opacity duration-500 ease-out">
             <p className="mb-2">
-              Eyüp Şengöz tarafından <span className="text-pink-500">❤</span>{" "}
+              Eyüp Şengöz tarafından <span className="text-pink-500 animate-pulse">❤</span>{" "}
               ile
               <br />
               İstanbul'da tasarlanıp

@@ -3,7 +3,7 @@
 :root {
   --background: #ededed;
   --foreground: #171717;
-  
+  --transition-standard: 0.4s ease-out;
 }
 
 @theme inline {
@@ -19,17 +19,19 @@
     --foreground: #ededed;
   }
 }
+
 @media screen and (max-width: 640px) {
   html {
     font-size: 14px;
   }
-  
+
   .h-screen {
     min-height: 100vh;
     height: auto;
     padding: 2rem 1rem;
   }
 }
+
 @media screen and (max-width: 375px) {
   html {
     font-size: 13px;
@@ -39,4 +41,80 @@
 body {
   background: var(--background);
   color: var(--foreground);
+}
+
+main {
+  opacity: 0;
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.stagger-reveal > * {
+  opacity: 0;
+  transform: translateY(15px);
+  animation: staggerReveal 0.6s ease-out forwards;
+}
+
+.stagger-reveal > *:nth-child(1) {
+  animation-delay: 0.1s;
+}
+.stagger-reveal > *:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.stagger-reveal > *:nth-child(3) {
+  animation-delay: 0.3s;
+}
+.stagger-reveal > *:nth-child(4) {
+  animation-delay: 0.4s;
+}
+.stagger-reveal > *:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+@keyframes staggerReveal {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+a,
+button {
+  transition: all 0.3s ease-out;
+}
+
+.scroll-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.scroll-reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.img-zoom {
+  overflow: hidden;
+}
+
+.img-zoom img {
+  transition: transform 0.5s ease-out;
+}
+
+.img-zoom:hover img {
+  transform: scale(1.05);
 }
