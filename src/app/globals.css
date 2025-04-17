@@ -19,6 +19,22 @@
     --foreground: #ededed;
   }
 }
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 14px;
+  }
+  
+  .h-screen {
+    min-height: 100vh;
+    height: auto;
+    padding: 2rem 1rem;
+  }
+}
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 13px;
+  }
+}
 
 body {
   background: var(--background);

@@ -36,15 +36,15 @@ const ProjectCard: React.FC<Project> = ({
   githubLink,
 }) => {
   return (
-    <div className="rounded-3xl  overflow-hidden flex flex-col md:flex-row mb-8">
-      <div className="relative w-full md:w-1/2">
+    <div className="rounded-3xl overflow-hidden flex flex-col md:flex-row mb-8">
+      <div className="relative w-full md:w-1/2 h-64 md:h-auto">
         <img
           src={imageUrl}
           alt={altText}
-          className="w-full max-w-128 h-full object-cover rounded-3xl"
+          className="w-full h-full object-cover rounded-3xl max-w-128"
         />
       </div>
-      <div className="p-8 flex-1">
+      <div className="p-4 md:p-8 flex-1">
         <h3 className="text-3xl font-normal mb-4">{title}</h3>
         <ul className=" space-y-3 mb-6">
           {features.map((feature, index) => {
@@ -133,10 +133,12 @@ const ProjelerSection: React.FC = () => {
   ];
 
   return (
-    <div className="h-screen flex flex-col justify-center items-center">
-      <div className=" mx-auto px-4">
-        <h2 className="text-4xl font-normal mb-12">Projelerim</h2>
-        <div className="space-y-12">
+    <div className="min-h-screen px-4 py-16 md:py-0 md:flex md:flex-col md:justify-center md:items-center">
+      <div className="mx-auto w-full max-w-6xl">
+        <h2 className="text-3xl md:text-4xl font-normal mb-8 md:mb-12">
+          Projelerim
+        </h2>
+        <div className="space-y-8 md:space-y-12">
           {projectsData.map((project, index) => (
             <ProjectCard key={index} {...project} />
           ))}
