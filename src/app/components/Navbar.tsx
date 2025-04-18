@@ -20,19 +20,9 @@ const Navbar = () => {
           <Link href="/about" className="text-gray-600 hover:text-gray-900">
             Hakkımda
           </Link>
-          <Link href="/cv" className="text-gray-600 hover:text-gray-900">
+          <Link href="https://drive.google.com/file/d/1nkFktkrbYJ1-rbCNUmAzAy1BGN5pdLFb/view?usp=sharing" target='_blank' className="text-gray-600 hover:text-gray-900">
              CV
           </Link>
-          {/* Alternatif CV linki (doğrudan indirme için) */}
-          {/*
-          <a
-            href="/dosyalar/cv.pdf"
-            download="losa-cv.pdf"
-            className="px-4 py-2 bg-indigo-600 text-white text-sm rounded hover:bg-indigo-500 transition duration-300"
-          >
-            CV İndir
-          </a>
-          */}
         </div>
       </div>
     </nav>
