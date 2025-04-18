@@ -1,11 +1,8 @@
 "use client";
-import Image from "next/image";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheckCircle, faEye } from "@fortawesome/free-solid-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useEffect, useRef } from "react";
 import ProjelerSection from "./components/ProjectCard";
 import FooterComponent from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 export default function Home() {
   useEffect(() => {
@@ -33,7 +30,9 @@ export default function Home() {
   }, []);
 
   return (
+    
     <main>
+      <Navbar />
       <header className="relative h-screen w-full overflow-hidden">
         <div className="absolute left-1/4 top-2/5 transform -translate-y-1/2 -translate-x-1/2 w-96 h-96 rounded-full bg-green-400 opacity-20 blur-3xl z-0"></div>
         <div className="absolute right-1/4 top-3/5 transform -translate-y-1/2 translate-x-1/2 w-96 h-96 rounded-full bg-blue-400 opacity-20 blur-3xl z-0"></div>
