@@ -21,7 +21,7 @@ export default function Hakkimda() {
     },
     {
       school: "Bolluca Mesleki Ve Teknik Anadolu Lisesi",
-      period: "2022-2024",
+      period: "2023-2024",
       current: false,
     },
   ];
@@ -43,7 +43,7 @@ export default function Hakkimda() {
               kullanıcı odaklı masaüstü uygulamaları geliştirmeyi sever.
               <br />
               <br />
-              Linux hayranı olsa da şu an Windows kullanmaktadır. Yakın zamanda
+              Linux hayranı olsa da ş u an Windows kullanmaktadır. Yakın zamanda
               Arch tabanlı sistemlerde deneyim kazanmış, Hyprland gibi modern
               pencere yöneticileriyle çalışmıştır.
               <br />
