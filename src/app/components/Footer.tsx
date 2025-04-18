@@ -20,7 +20,7 @@ const FooterComponent: React.FC = () => {
               <Link href="mailto:lewislosa@gmail.com" className=" hover:underline underline-offset-4">
                 E-posta
               </Link>
-              <Link target="https://github.com/lewislosa/" href="#" className="hover:underline underline-offset-4">
+              <Link target="_blank" href="https://github.com/lewislosa/" className="hover:underline underline-offset-4">
                 GitHub
               </Link>
               <Link target="_blank" href="https://www.linkedin.com/in/sengozeyup" className="hover:underline underline-offset-4">
