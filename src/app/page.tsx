@@ -37,7 +37,7 @@ export default function Home() {
         <div className="absolute left-1/4 top-2/5 transform -translate-y-1/2 -translate-x-1/2 w-96 h-96 rounded-full bg-green-400 opacity-20 blur-3xl z-0"></div>
         <div className="absolute right-1/4 top-3/5 transform -translate-y-1/2 translate-x-1/2 w-96 h-96 rounded-full bg-blue-400 opacity-20 blur-3xl z-0"></div>
         <div className="h-screen flex flex-col justify-center items-center relative z-10">
-          <div className="stagger-reveal px-6">
+          <div className="stagger-reveal px-6 mb-40">
             <h1 className="text-5xl transform transition-all duration-500 ease-out opacity-0 translate-y-6">
               <b className="relative after:content-[''] after:absolute after:w-0 after:h-1 after:bg-current after:left-0 after:bottom-0 after:transition-all after:duration-700 after:ease-out hover:after:w-full">
                 Merhaba,
