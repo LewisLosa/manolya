@@ -91,7 +91,7 @@ export default function Hakkimda() {
                     <span className="font-medium">{skill.name}</span>
                     <span>{skill.percentage}%</span>
                   </div>
-                  <div className="w-full bg-gray-200 rounded-full h-2.5">
+                  <div className="w-full bg-gray-200 dark:bg-gray-200/10 rounded-full h-2.5">
                     <div
                       className={`h-2.5 rounded-full ${skill.color}`}
                       style={{ width: `${skill.percentage}%` }}
