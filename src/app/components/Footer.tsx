@@ -11,7 +11,7 @@ const FooterComponent: React.FC = () => {
             <h2 className="text-4xl font-bold">İstediğin gibi miyim?</h2>
             <p className="text-4xl mb-6">
               O zaman{" "}
-              <Link href="#" className="hover:underline underline-offset-4">
+              <Link href="https://drive.google.com/file/d/1nkFktkrbYJ1-rbCNUmAzAy1BGN5pdLFb/view?usp=sharing" target="_blank" className="hover:underline underline-offset-4">
                 cv'me
               </Link>{" "}
               göz at ve iletişime geç.
