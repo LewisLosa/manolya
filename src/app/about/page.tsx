@@ -1,7 +1,7 @@
 import FooterComponent from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
-import profilePic from "../../../public/imgs/eyup.jpg";
+import profilePic from "../../../public/imgs/eyup.webp";
 
 export default function Hakkimda() {
   const skills = [
