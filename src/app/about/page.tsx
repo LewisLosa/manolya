@@ -2,16 +2,30 @@ import FooterComponent from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Image from "next/image";
 import profilePic from "../../../public/imgs/eyup.webp";
+import { Icon } from "@iconify/react";
 
 export default function Hakkimda() {
   const skills = [
-    { name: "HTML", percentage: 95.2, color: "bg-orange-500" },
-    { name: "CSS", percentage: 75.4, color: "bg-pink-500" },
-    { name: "JavaScript", percentage: 36.81, color: "bg-yellow-400" },
-    { name: "C#", percentage: 27.83, color: "bg-purple-600" },
-    { name: "TypeScript", percentage: 25.71, color: "bg-blue-500" },
-    { name: "SCSS", percentage: 5.71, color: "bg-pink-400" },
-    { name: "Rust", percentage: 1.62, color: "bg-red-400" },
+    {
+      name: "JavaScript",
+      icon: "skill-icons:javascript",
+    },
+    {
+      name: "TypeScript",
+      icon: "skill-icons:typescript",
+    },
+    {
+      name: "HTML",
+      icon: "skill-icons:html",
+    },
+    {
+      name: "CSS",
+      icon: "skill-icons:css",
+    },
+    {
+      name: "C#",
+      icon: "skill-icons:cs",
+    },
   ];
   const education = [
     {
@@ -48,7 +62,7 @@ export default function Hakkimda() {
               pencere yöneticileriyle çalışmıştır.
               <br />
               <br />
-              Eyüp, İlk kez MVVM yapısını kullanarak geliştirdiği “Duru” adlı
+              Eyüp, İlk kez MVVM yapısını kullanarak geliştirdiği "Duru" adlı
               otel yönetim sistemi ile yazılım mimarisine olan ilgisini
               derinleştirmiştir.
               <br />
@@ -80,29 +94,26 @@ export default function Hakkimda() {
               ))}
             </ul>
           </div>
-
-          {/* Yetenekler */}
+          {/* Yetenekler - Yeni Tasarım */}
           <div className="mt-10">
-            <h3 className="text-2xl font-semibold mb-4">Yetenekler</h3>
-            <div className="space-y-4 text-xl">
+            <h3 className="text-2xl font-semibold mb-6">Yetenekler</h3>
+            <div className="flex flex-wrap gap-3 w-fit">
               {skills.map((skill) => (
-                <div key={skill.name}>
-                  <div className="flex justify-between mb-1">
-                    <span className="font-medium">{skill.name}</span>
-                    <span>{skill.percentage}%</span>
+                <div
+                  key={skill.name}
+                  className="bg-gray-100 dark:bg-white/15 rounded-lg p-3 w-fit flex items-center shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <div className="mr-3 flex-shrink-0">
+                    <Icon className="h-10 w-10" icon={skill.icon} />
                   </div>
-                  <div className="w-full bg-gray-200 dark:bg-gray-200/10 rounded-full h-2.5">
-                    <div
-                      className={`h-2.5 rounded-full ${skill.color}`}
-                      style={{ width: `${skill.percentage}%` }}
-                    ></div>
+                  <div className="flex-grow">
+                    <h4 className="font-bold text-lg">{skill.name}</h4>
                   </div>
                 </div>
               ))}
             </div>
           </div>
         </div>
-
         <div className="order-1 md:order-2">
           <div className="rounded-full overflow-hidden w-96 h-96 md:w-64 md:h-64 md:mb-200 lg:w-96 lg:h-96 lg:mb-200 relative">
             <Image
