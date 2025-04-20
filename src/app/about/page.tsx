@@ -115,7 +115,7 @@ export default function Hakkimda() {
           </div>
         </div>
         <div className="order-1 md:order-2">
-          <div className="rounded-full overflow-hidden w-96 h-96 md:w-64 md:h-64 md:mb-200 lg:w-96 lg:h-96 lg:mb-200 relative">
+          <div className="rounded-full overflow-hidden w-96 h-96 md:w-64 md:h-64 md:mb-200 lg:w-96 lg:h-96 lg:mb-100 relative">
             <Image
               src={profilePic}
               alt="Eyüp Şengöz"
