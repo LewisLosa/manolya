@@ -47,29 +47,20 @@ export default function Hakkimda() {
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Hakkımda</h2>
           <div>
             <p className="text-2xl mb-4">
-              Eyüp Şengöz, yazılım, tasarım ve yeni nesil teknolojilere tutkuyla
-              bağlı bir geliştiricidir. Boş zamanlarının çoğunu kod yazarak,
-              tasarım yaparak ya da arkadaşlarıyla oyun oynayarak geçirir.
-              <br />
-              <br />
-              Şu anda liseye devam eden Eyüp, TypeScript ve C# gibi dilleri
-              giriş seviyesinde bilmektedir. Performans ve estetiği birleştiren,
-              kullanıcı odaklı masaüstü uygulamaları geliştirmeyi sever.
-              <br />
-              <br />
-              Linux hayranı olsa da şu an Windows kullanmaktadır. Yakın zamanda
-              Arch tabanlı sistemlerde deneyim kazanmış, Hyprland gibi modern
-              pencere yöneticileriyle çalışmıştır.
-              <br />
-              <br />
-              Eyüp, İlk kez MVVM yapısını kullanarak geliştirdiği "Duru" adlı
-              otel yönetim sistemi ile yazılım mimarisine olan ilgisini
-              derinleştirmiştir.
-              <br />
-              <br />
-              Yazılım dışında yaratıcılığını tasarımda ve arkadaşlarıyla oyun
-              oynarken bulur. Boş zamanlarında ya kod yazar, ya da müzik
-              dinleyip keyifli vakit geçirir.
+              7 yaşımdan beri bilgisayar sorunları çözmeye başlamış olup  
+              13 yaşlarımda ilk C# WinForms projemi oluşturdum.  
+              Daha sonrasında Python öğrenmeye başladım ardından  
+              hesap makinesi ve spotify playlist kopyalayıcı gibi  
+              basit projeler yaptım. Ve bu süreçte Adobe programları  
+              ile tanıştım, tasarım konusunda kendimi geliştirdim.
+              <br/>
+              <br/>  
+              Liseye geçtiğimde yeniden kodlamaya odaklandım,  
+              C# üzerinde iş odaklı projeler oluşturmaya başladım  
+              ve MySql ile bu süreçte tanıştım. Ben yenilikçi  
+              ve tasarım odaklı bir yazılımcı olarak şuanda  
+              NextJS ve C# ile projeler yapıp, kendi Minecraft  
+              sunucumu geliştirmekteyim.
             </p>
           </div>
 
