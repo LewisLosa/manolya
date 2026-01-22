@@ -81,7 +81,7 @@ const ProjectCard: React.FC<Project> = ({
               className="py-2 px-6 rounded-full text-lg text-blue-500 flex items-center group relative overflow-hidden transition-all duration-300 ease-out pr-12 hover:bg-blue-200 dark:hover:bg-blue-900/20"
             >
               <FontAwesomeIcon icon={faFileLines} className="mr-2" />
-              Gözat
+              Göz at
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 className="absolute right-0 opacity-0 transform translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out mr-3"
@@ -96,7 +96,7 @@ const ProjectCard: React.FC<Project> = ({
               className="dark:border-white py-2 px-6 rounded-full text-lg flex items-center group relative overflow-hidden transition-all duration-300 ease-out pr-12 hover:bg-gray-300 dark:hover:bg-black/35"
             >
               <FontAwesomeIcon icon={faGithub} className="mr-2" />
-              Github
+              GitHub
               <FontAwesomeIcon
                 icon={faArrowUpRightFromSquare}
                 className="absolute right-0 opacity-0 transform translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 ease-out mr-3"
@@ -118,7 +118,7 @@ const ProjelerSection: React.FC = () => {
       isDeveloping: true,
       title: "Setscript.com için masaüstü uygulaması",
       features: [
-        "Çevrimdışı kullanım",
+        "Çevrim dışı kullanım",
         "Açık kaynaklı",
         "Çapraz platform",
         "Performanslı",
@@ -129,14 +129,14 @@ const ProjelerSection: React.FC = () => {
     },
     {
       imageUrl: "/imgs/duru.png",
-      altText: "Duru - Hotel Yönetim Otomasyonu",
+      altText: "Duru - Hotel yönetim otomasyonu",
       isNew: true,
       isDeveloping: true,
-      title: "Duru -- Hotel Yönetim Otomasyonu",
+      title: "Duru -- Hotel yönetim otomasyonu",
       features: [
-        "Çevrimdışı kullanım",
+        "Çevrim dışı kullanım",
         "Açık kaynaklı",
-        "Kullanıcı Dostu Arayüz",
+        "Kullanıcı dostu arayüz",
         "Performanslı",
       ],
       featureIcons: [faCheckCircle, faFilePen, faLaptop, faGaugeHigh],
