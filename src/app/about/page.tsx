@@ -34,7 +34,7 @@ export default function Hakkimda() {
       current: true,
     },
     {
-      school: "Bolluca Mesleki Ve Teknik Anadolu Lisesi",
+      school: "Bolluca Mesleki ve Teknik Anadolu Lisesi",
       period: "2023-2024",
       current: false,
     },
@@ -50,16 +50,16 @@ export default function Hakkimda() {
               7 yaşımdan beri bilgisayar sorunları çözmeye başlamış olup  
               13 yaşlarımda ilk C# WinForms projemi oluşturdum.  
               Daha sonrasında Python öğrenmeye başladım ardından  
-              hesap makinesi ve spotify playlist kopyalayıcı gibi  
+              hesap makinesi ve Spotify playlist kopyalayıcı gibi  
               basit projeler yaptım. Ve bu süreçte Adobe programları  
               ile tanıştım, tasarım konusunda kendimi geliştirdim.
               <br/>
               <br/>  
               Liseye geçtiğimde yeniden kodlamaya odaklandım,  
               C# üzerinde iş odaklı projeler oluşturmaya başladım  
-              ve MySql ile bu süreçte tanıştım. Ben yenilikçi  
-              ve tasarım odaklı bir yazılımcı olarak şuanda  
-              NextJS ve C# ile projeler yapıp, kendi Minecraft  
+              ve MySQL ile bu süreçte tanıştım. Ben yenilikçi  
+              ve tasarım odaklı bir yazılımcı olarak şu anda  
+              Next.js ve C# ile projeler yapıp, kendi Minecraft  
               sunucumu geliştirmekteyim.
             </p>
           </div>

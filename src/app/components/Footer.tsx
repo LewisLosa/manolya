@@ -12,7 +12,7 @@ const FooterComponent: React.FC = () => {
             <p className="text-4xl mb-6">
               O zaman{" "}
               <Link href="https://drive.google.com/file/d/1nkFktkrbYJ1-rbCNUmAzAy1BGN5pdLFb/view?usp=sharing" target="_blank" className="hover:underline underline-offset-4">
-                cv'me
+                CV'me
               </Link>{" "}
               göz at ve iletişime geç.
             </p>
